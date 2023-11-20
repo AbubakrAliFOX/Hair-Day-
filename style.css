@@ -83,11 +83,20 @@ a {
   z-index: 11;
 }
 
-.promo-content h3 {
+.promo-content h2 {
     font-size: 1.3rem;
     font-weight: bold;
 }
 
 .promo-content p {
     font-size: 1.1rem;
+}
+
+.info-section {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info {
 }
