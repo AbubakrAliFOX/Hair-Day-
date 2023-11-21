@@ -9,6 +9,9 @@ body {
   max-width: var(--max-margin);
   margin-right: auto;
   margin-left: auto;
+  font-family: 'Comfortaa', sans-serif;
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Merienda', cursive;
 }
 
 header {
@@ -77,7 +80,7 @@ a {
 }
 
 .promo-background:hover {
-  transform: scale(1.4);
+    filter: blur(2px);
 }
 
 .promo-content {
