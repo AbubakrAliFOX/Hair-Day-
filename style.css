@@ -127,19 +127,41 @@ a {
 }
 
 .info button {
+  --color: #390b00;
   background: none;
   color: white;
-  border: 2px solid #390b00;
+  border: 2px solid var(--color);
   cursor: pointer;
-  border-radius: 15px;
-  font-size: 16px;
+  transform: scale(1.4);
+  border-radius: 6px;
   padding: 10px;
-  margin: 5px 0;
+  margin: 10px 0;
   transition: 0.5s;
+  position: relative;
+  isolation: isolate;
+}
+
+.info button::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  inset: 0;
+  scale: 0 1;
+  transform-origin: right;
+  transition: scale 450ms;
+  
 }
 
 .info button:hover {
-  background-color: #390b00;
+  color: white;
+  /* font-weight: bolder; */
+}
+
+.info button:hover::after,
+.info button:focus-visible::after {
+  transform-origin: left;
+  scale: 1 1;
 }
 
 footer {
