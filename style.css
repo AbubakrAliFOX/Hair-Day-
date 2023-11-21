@@ -114,3 +114,25 @@ a {
     height: 250px;
     border-radius: 10px;
 }
+
+.info p {
+    text-align: left;
+    padding: 0 10px 0 20px;
+}
+
+.info button {
+    background: none;
+    color: white;
+    border: 2px solid #390b00;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px 0;
+    transition: 0.5s;
+}
+
+
+.info button:hover {
+    background-color: #390b00;
+}
