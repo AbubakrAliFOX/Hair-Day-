@@ -1,7 +1,7 @@
 :root {
-    --bg-color: #d0604c;
-    --max-margin: 70%;
-  }
+  --bg-color: #d0604c;
+  --max-margin: 70%;
+}
 
 body {
   background-color: #390b00;
@@ -89,50 +89,74 @@ a {
 }
 
 .promo-content h2 {
-    font-size: 1.3rem;
-    font-weight: bold;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 .promo-content p {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 .info-section {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--bg-color);
+  border-radius: 10px;
+  padding: 6px;
 }
 
 .info {
-    background-color: var(--bg-color);
-    text-align: center;
-    max-width: 33.333%;
+  background-color: var(--bg-color);
+  text-align: center;
+  max-width: 33.333%;
 }
 
 .info img {
-    width: 90%;
-    height: 250px;
-    border-radius: 10px;
+  width: 90%;
+  height: 250px;
+  border-radius: 10px;
 }
 
 .info p {
-    text-align: left;
-    padding: 0 10px 0 20px;
+  text-align: left;
+  padding: 0 10px 0 20px;
 }
 
 .info button {
-    background: none;
-    color: white;
-    border: 2px solid #390b00;
-    cursor: pointer;
-    border-radius: 15px;
-    font-size: 16px;
-    padding: 10px;
-    margin: 10px 0;
-    transition: 0.5s;
+  background: none;
+  color: white;
+  border: 2px solid #390b00;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 16px;
+  padding: 10px;
+  margin: 5px 0;
+  transition: 0.5s;
 }
 
-
 .info button:hover {
-    background-color: #390b00;
+  background-color: #390b00;
+}
+
+footer {
+  background-color: var(--bg-color);
+  margin-top: 20px;
+  border-radius: 10px;
+
+}
+
+.logo-footer,
+.copyright {
+  margin: 0 10px;
+  display: inline-block;
+  width: 47%;
+}
+
+.copyright {
+  text-align: right;
+}
+
+.logo-footer img {
+  max-width: 70%;
 }
